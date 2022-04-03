@@ -1,0 +1,2 @@
+# shared_nginx_back_front
+フロントエンドとバックエンドの両方の通信を受けとるNginx設定
