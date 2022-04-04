@@ -1,0 +1,9 @@
+
+version: '3' # Docker Compose バージョンに対応するファイルバージョンを指定
+services:
+  nginx:
+    build:
+      context: . # ビルド時にカレントディレクトリを起点とする
+      dockerfile: ./Dockerfile # context から見た Dockerfile のパスを指定
+    ports:
+      - '80:80' # localhost の 80 ポートでアクセスできるようにする
